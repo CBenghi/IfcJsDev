@@ -1,0 +1,4 @@
+[submodule "web-ifc"]
+	path = web-ifc
+	url = https://github.com/CBenghi/web-ifc.git
+	branch = playground

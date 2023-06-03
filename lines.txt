@@ -1,0 +1,14 @@
+   3018 ./web-ifc/src/wasm/geometry/IfcGeometryLoader.cpp
+   1596 ./web-ifc/src/wasm/geometry/IfcGeometryProcessor.cpp
+     68 ./web-ifc/src/wasm/geometry/representation/IfcCurve.cpp
+     85 ./web-ifc/src/wasm/geometry/representation/IfcGeometry.cpp
+     94 ./web-ifc/src/wasm/parsing/IfcLoader.h
+    121 ./web-ifc/src/wasm/parsing/IfcTokenStream.h
+   1149 ./web-ifc/src/wasm/schema/ifc-schema.h
+     31 ./web-ifc/src/wasm/schema/IfcSchemaManager.h
+    130 ./web-ifc/src/wasm/test/io_helpers.h
+     43 ./web-ifc/src/wasm/utility/LoaderError.h
+     16 ./web-ifc/src/wasm/utility/LoaderSettings.h
+     33 ./web-ifc/src/wasm/utility/Logging.h
+      5 ./web-ifc/src/wasm/version.h
+
