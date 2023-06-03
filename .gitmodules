@@ -2,3 +2,6 @@
 	path = web-ifc
 	url = https://github.com/CBenghi/web-ifc.git
 	branch = playground
+[submodule "web-ifc-three"]
+	path = web-ifc-three
+	url = https://github.com/IFCjs/web-ifc-three.git
