@@ -5,3 +5,7 @@
 [submodule "web-ifc-three"]
 	path = web-ifc-three
 	url = https://github.com/IFCjs/web-ifc-three.git
+[submodule "fuzzy-bools"]
+	path = fuzzy-bools
+	url = https://github.com/CBenghi/fuzzy-bools.git
+	branch = main
