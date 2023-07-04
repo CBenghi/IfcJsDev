@@ -22,16 +22,16 @@ Emscripten in installed using the git download script
 | ---------------------------- | ---------------------------------------------------------- |
 | cmake -S wasm/ -B wasm-build | Creates the configuration file                             |
 | CMakeCache.txt               | This file contains the configuration choices for the build |
-| Cmake --build <folder>       | Runs the compilation of the project                        |
+| Cmake --build &lt;folder&gt; | Runs the compilation of the project                        |
 | Cmake -G                     | Chose the generator (ninja, Unix Makefiles, etc)           |
 
 ### using Emscripten (alternative to cmake)
 
-| Command or file                   | Notes                                                               |
-| --------------------------------- | ------------------------------------------------------------------- |
-| emcmake cmake -S wasm/ -B em-wasm | Prepares the configuration folder                                   |
-| edit CMakeCache.txt               | to configure the build parameters                                   |
-| emmake make                       | When we use emmake to compile all the wasm and js files are created |
+| Command or file                   | Notes                                                                               |
+| --------------------------------- | ----------------------------------------------------------------------------------- |
+| emcmake cmake -S wasm/ -B em-wasm | Run in src folder. Prepares the configuration folder                                |
+| edit CMakeCache.txt               | to configure the build parameters                                                   |
+| emmake make                       | Run in em-wasm. When we use emmake to compile all the wasm and js files are created |
 
 ### using vs2022
 
